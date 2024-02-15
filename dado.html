@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="midia/cubos/dado.png" type="image/x-icon">
+    <link rel="stylesheet" href="dado.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="dado.js"> </script>
+    <title>Dado Aleatório</title>
+</head>
+<body>
+    <audio class="audio" preload="none" autoplay loop>
+        <source src="midia/A Night Alone - TrackTribe.mp3" type="audio/mpeg">
+    </audio>
+    <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <div class="buttons">
+    <div><input type="button" id="b0" onclick="mudarCor(0)"></div>
+    <div><input type="button" id="b1" onclick="mudarCor(1)"></div>
+    <div><input type="button" id="b2" onclick="mudarCor(2)"></div>
+    <div><input type="button" id="b3" onclick="mudarCor(3)"></div>
+    </div>
+
+    
+    <div class="titulo"><p>Você tirou o número</p></div>
+    <div id="adv">Advinhe o número</div>
+
+    <div><input type="number" name="txt_res" id="txt_res"></div>
+   
+   
+   
+       
+        <div class="square" onclick="girar()"> 
+     
+            <div class="container">
+                <div class="ponto"></div>
+                <div class="ponto2"></div>
+                <div class="ponto3"></div>
+            </div>  
+            <div>
+                <div class="ponto4"></div>
+            </div>
+            <div class="container-two">
+                <div class="ponto5"></div>
+                <div class="ponto6"></div>
+                <div class="ponto7"></div>
+            </div>
+        </div>
+
+    <footer>
+        <div id="footer">&copy; JúlioCoelho</div>
+        </footer>
+        
+</body>
+</html>

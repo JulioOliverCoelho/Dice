@@ -1,0 +1,183 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      align-items: center;
+      background: #f1fff1;
+    
+    }
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+    opacity: 0;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #000000;
+    margin: 8px;
+}
+.mobile-menu{
+    display: block;
+    margin-left: -93%;
+    margin-top: -5%;
+}
+.mobile-menu.active {
+    transform: translateX(0);
+}
+
+@media (min-width: 0px){
+    .buttons {
+        position:absolute;
+        top:8vh;
+        left: 0;
+        width: 30vh;
+        height: 5vw;
+        background:#00000089;
+        flex-direction: row;
+        align-items: center;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        margin-top:25rem;
+        /* transform: translatex(100%); */
+        transition: transform 0.3s ease-in
+    }
+}
+
+.barra{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.barra div{
+    height: 100%;
+    border-radius: 10px;
+    background-color: #000000;
+}
+/* TITULO E SUBTÍTULO */
+.titulo{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+#adv{
+    margin-bottom: 1rem;
+}
+
+/* INPUT */
+input {
+    border-radius: 1px;
+    border-radius: 1rem;
+    padding-left: 15px;
+}
+/* ÁREA DO QUADRADO */
+.square{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:#ffffff;
+    border-color: black;
+    width: 19rem;
+    height: 19rem;
+    border-radius: 2rem;
+    box-shadow: 30px 25px 30px rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+    margin: 2rem;
+    opacity: 100%;
+
+}
+.square:hover{
+    transform: scale(1.01);
+}
+
+/* PONTOS DO QUADRADO */
+.ponto{
+    height: 3rem;
+    width: 3rem;
+    background: #000000;
+    border-radius: 100%;
+}
+.ponto2{
+    height: 3rem;
+    width: 3rem;
+    background: #000000;
+    border-radius: 100%;
+
+}
+.ponto3{
+    height: 3rem;
+    width: 3rem;
+    background: #000000;
+    border-radius: 100%;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.ponto4{
+    height: 3rem;
+    width: 3rem;
+    background: transparent;
+    border-radius: 100%;
+
+}
+.ponto5{
+    height: 3rem;
+    width: 3rem;
+    background: #000000;
+    border-radius: 100%;
+
+}
+.ponto6{
+    height: 3rem;
+    width: 3rem;
+    background: #000000;
+    border-radius: 100%;
+}
+.ponto7{
+    height: 3rem;
+    width: 3rem;
+    background: #000000;
+    border-radius: 100%;
+
+}
+.container-two{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+#b0, #b1, #b2, #b3{
+    cursor: pointer;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 100%;
+}
+
+#b0{
+    background: #fff;
+}
+
+#b1{
+    background: #b8b8b8;
+    
+}
+#b2{
+    background:#50d8cbf7;
+}
+#b3{
+    background:#f80e0eed;
+}
